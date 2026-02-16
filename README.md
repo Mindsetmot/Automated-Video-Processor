@@ -1,6 +1,6 @@
 # 🎬 V-Encode - Automated Video Processor
 
-[![Build Status](https://img.shields.io/badge/Status-Beta--Release-blueviolet?style=for-the-badge)](https://github.com/Mindsetmot/Automated-Video-Processor)
+[![Status](https://img.shields.io/badge/Status-Stable-green?style=for-the-badge)](https://github.com/Mindsetmot/Automated-Video-Processor)
 [![Engine](https://img.shields.io/badge/Engine-FFmpeg-green?style=for-the-badge)](https://ffmpeg.org/)
 [![Platform](https://img.shields.io/badge/Platform-Termux-orange?style=for-the-badge)](https://termux.dev/)
 
