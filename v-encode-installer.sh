@@ -19,6 +19,7 @@ pkg update -y && pkg upgrade -y
 
 echo -e "${YELLOW}[2/3] Menginstal dependencies...${NC}"
 pkg install git ffmpeg jq fontconfig -y
+pkg install fontconfig-utils
 
 echo -e "${YELLOW}[3/3] Mengunduh binary V-Encode...${NC}"
 if curl -L -o "$PREFIX/bin/V-Encode" "https://github.com/Mindsetmot/Automated-Video-Processor/raw/main/V-Encode"; then
