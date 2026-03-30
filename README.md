@@ -26,43 +26,43 @@
 
 Jalankan perintah ini untuk menginstal `V-Encode` (versi Binary/Compiled) beserta semua dependencies:
 
-### Update & Upgrade Package
+* **Update & Upgrade Package**
 ```bash
 pkg update -y && pkg upgrade -y
 ```
 Update daftar package dan upgrade semua yang terinstall agar versi terbaru.
 
-### Install Dependency Utama
+* **Install Dependency Utama**
 ```bash
 pkg install git ffmpeg jq fontconfig python -y
 ```
 Install semua kebutuhan utama seperti git, ffmpeg, jq, fontconfig, dan python.
 
-### Install Fontconfig Utils
+* **Install Fontconfig Utils**
 ```bash
 pkg install fontconfig-utils
 ```
 Install tools tambahan untuk mengelola dan mengecek font.
 
-### Download Script V-Encode
+* **Download Script V-Encode**
 ```bash
 curl -L -o "$PREFIX/bin/V-Encode" "https://github.com/Mindsetmot/Automated-Video-Processor/raw/main/V-Encode"
 ```
 Download script V-Encode dan simpan ke folder bin agar bisa dijalankan langsung.
 
-### Beri Izin Eksekusi
+* **Beri Izin Eksekusi**
 ```bash
 chmod +x "$PREFIX/bin/V-Encode"
 ```
 Memberikan izin agar script bisa dijalankan.
 
-### Setup Akses Storage
+* **Setup Akses Storage**
 ```bash
 termux-setup-storage
 ```
 Memberikan akses ke penyimpanan internal perangkat.
 
-### Jalankan Tools
+* **Jalankan Tools**
 ```bash
 V-Encode
 ```
