@@ -24,7 +24,7 @@
 
 ### 📥 Quick Installation
 
-Jalankan perintah ini untuk menginstal `V-Encode` (versi Binary/Compiled) beserta semua dependencies secara otomatis:
+Jalankan perintah ini untuk menginstal `V-Encode` (versi Binary/Compiled) beserta semua dependencies:
 
 ```### Update & Upgrade Package
 pkg update -y && pkg upgrade -y
