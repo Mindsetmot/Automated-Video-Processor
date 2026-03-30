@@ -56,6 +56,14 @@ chmod +x "$PREFIX/bin/V-Encode"
 ```
 Memberikan izin agar script bisa dijalankan.
 
+* **Install Termux API**
+```bash
+pkg install termux-api
+```
+Digunakan untuk mendukung fitur wake-lock, sehingga proses encoding tidak terhenti saat layar mati.
+
+> ***Pastikan aplikasi Termux:API sudah terpasang di perangkat.***
+
 * **Setup Akses Storage**
 ```bash
 termux-setup-storage
