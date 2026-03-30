@@ -26,7 +26,8 @@
 
 Jalankan perintah ini untuk menginstal `V-Encode` (versi Binary/Compiled) beserta semua dependencies:
 
-```### Update & Upgrade Package
+### Update & Upgrade Package
+```bash
 pkg update -y && pkg upgrade -y
 ```
 Update daftar package dan upgrade semua yang terinstall agar versi terbaru.
