@@ -22,7 +22,7 @@
 
 ---
 
-### 📥 Quick Installation
+### 📥 Installation Steps
 
 Jalankan perintah ini untuk menginstal `V-Encode` (versi Binary/Compiled) beserta semua dependencies:
 
